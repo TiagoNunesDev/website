@@ -13,4 +13,3 @@ $dbName = "mydb";
 $con = mysqli_connect($dbServer,$dbUser,$dbPassword,$dbName);
 if( $con)
     echo "connection is established";
-
